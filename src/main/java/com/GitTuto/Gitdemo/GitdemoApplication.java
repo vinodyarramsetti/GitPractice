@@ -7,9 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitdemoApplication {
 	static String countryName = "India";
 
+	static String stateName = "AP";
 	public static void main(String[] args) {
 		SpringApplication.run(GitdemoApplication.class, args);
 		System.out.println(countryName);
+		System.out.println(stateName);
 	}
 
 }
